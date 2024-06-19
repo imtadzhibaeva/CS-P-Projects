@@ -10,6 +10,7 @@ public class Lexer {
 
     }
 
+
     class Token{
 final TokenType type;
 final String value;
@@ -20,6 +21,7 @@ Token(TokenType type, String value) {
 }
     }
 
+    
     enum TokenType{
         CONFIG, UPDATE, COMPUTE, SHOW, CONFIGS, STRING, NUMBERS, IDENTIFIEFR, REFERENCES
     }
