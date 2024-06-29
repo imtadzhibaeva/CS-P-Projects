@@ -1,5 +1,5 @@
 
-//ADD 34 3
+//ADD 34 3 (operator)
 //SUB 31 2
 
 import java.util.Scanner;
@@ -15,6 +15,7 @@ public class Calculator {
     if (data.length != 3 ) {
       throw new IllegalArgumentException("Input doesnt satisfy language rules: " + raw_expr);
     }
+   String operator = expr[0];
 
     scanner.close();
   }  
