@@ -1,0 +1,3 @@
+BNF(Backup-Naur Form) form of our DSL
+
+<expression> ::= <operand
