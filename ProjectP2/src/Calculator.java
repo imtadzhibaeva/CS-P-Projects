@@ -18,5 +18,8 @@ public class Calculator {
    String operator = expr[0];
 
     scanner.close();
+
   }  
+
 }
+`           ~
