@@ -1,7 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Lexer {
     
 
-    public Lexer(String input) {
+        private final String input;
+        private final List<Token> tokens;
+        
+        public Lexer(String input) {
+
+        this.input = input;
         this.tokens = new ArrayList<Token>();
         tokenize();
     }
