@@ -1,3 +1,4 @@
+import java.io.ObjectInputFilter.Config;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,9 +18,26 @@ public class Lexer {
     private void tokenize() {
 
     }
+enum Token {
 
+    final TokenType type;
+    final String value;
 
-    class Token{
+    Token(TokenType type, String value){
+        this.type = type;
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return "Token=(" + 
+    }
+}
+    enum TokenType{
+    CONFIG, UPDATE, COMPUTE, SNOW, CONFIGS, STRING, NUMBER, IDENTIFIER, REFERENCES
+}
+   private static class Token{
+    
 final TokenType type;
 final String value;
 
