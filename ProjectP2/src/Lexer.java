@@ -31,7 +31,7 @@ enum Token {
     @Override
     public String toString() {
         return "Token=(" + 
-        
+
     }
 }
     enum TokenType{
@@ -50,6 +50,7 @@ Token(TokenType type, String value) {
 
 
     enum TokenType{
+        
         CONFIG, UPDATE, COMPUTE, SHOW, CONFIGS, STRING, NUMBERS, IDENTIFIEFR, REFERENCES
     }
 
