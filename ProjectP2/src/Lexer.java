@@ -43,6 +43,7 @@ final TokenType type;
 final String value;
 
 Token(TokenType type, String value) {
+    
     this.type = type;
     this.value = value;
 }
@@ -51,7 +52,7 @@ Token(TokenType type, String value) {
 
     enum TokenType{
 
-        
+
         CONFIG, UPDATE, COMPUTE, SHOW, CONFIGS, STRING, NUMBERS, IDENTIFIEFR, REFERENCES
     }
 
