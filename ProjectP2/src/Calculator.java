@@ -12,6 +12,7 @@ public class Calculator {
     Scanner scanner = new Scanner(System.in);
 
     String raw_expr = scanner.nextLine();
+    
     String[] data = raw_expr.split(" ");
     if (data.length != 3 ) {
       throw new IllegalArgumentException("Input doesnt satisfy language rules: " + raw_expr);
